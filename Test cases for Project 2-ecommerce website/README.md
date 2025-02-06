@@ -110,3 +110,114 @@ Verify that form fields are correctly displayed and functional in all browsers.
 Verify that modal windows function consistently across browsers.
 Verify that cross-browser compatibility issues are reported by the testing tool.
 Verify the website's JavaScript functions across different browsers.
+
+OpenCart Application - Project #1
+
+
+The objective of this e-commerce project is to develop a user-friendly and secure online shopping platform for customers to browse, purchase and track their orders. 
+
+The project will involve the development of a web-based application using OpenCart, an open-source e-commerce platform. The application will include features such as user registration and login, product catalog, shopping cart, checkout, payments gateway integration, and order management. 
+
+
+Please note - Requirment documentation contains details on user stories, test cases, and design mockups to each requirement to provide more clarity and context for the development team.
+
+
+The project will aim to provide a seamless user experience and ensure the security of sensitive customer information. The target audience for this e-commerce platform will be customers looking to purchase a wide variety of products online.
+Requirement
+Description
+Priority
+Acceptance Criteria
+Login
+Users should be able to create an account and log in to the system.
+High
+- User can access the login page from the homepage. <br> - User can enter their credentials and click the "login" button. <br> - User is redirected to their account dashboard upon successful login.
+Registration
+Users should be able to register for a new account.
+High
+- User can access the registration page from the homepage. <br> - User can enter their details (name, email, password, etc.) and click the "register" button. <br> - User is redirected to their account dashboard upon successful registration.
+Add to Cart
+Users should be able to add products to their cart.
+High
+- User can click the "Add to Cart" button on a product page. <br> - The product is added to the user's cart. <br> - User can view their cart and the products they have added.
+Checkout
+Users should be able to complete a purchase.
+High
+- User can click the "Checkout" button from their cart page. <br> - User can enter their shipping and billing information. <br> - User can choose a payment method and complete the transaction.
+Payment Gateway
+The system should integrate with a payment gateway.
+High
+- User can choose from a list of supported payment methods during checkout. <br> - User's payment information is securely transmitted to the payment gateway for processing. <br> - User receives a confirmation of their payment upon successful processing.
+Orders
+Users should be able to view their order history.
+Medium
+- User can access their order history from their account dashboard. <br> - User can view details about their past orders (date, products purchased, total cost, etc.).
+
+Login
+User Stories
+
+As a new user, I want to be able to create a new account and login to the platform.
+As an existing user, I want to be able to easily access my account by entering my login credentials.
+
+
+Design Mockups
+
+Login page design mockup
+
+
+Registration
+User Stories
+
+As a new user, I want to be able to easily create a new account and register for the platform.
+As an existing user, I want to be able to update my account information and manage my preferences.
+Test Cases
+
+Design Mockups
+
+Registration page design mockup
+
+
+Add to Cart
+User Stories
+
+As a customer, I want to be able to easily add products to my cart and view my cart.
+As a customer, I want to be able to easily manage the contents of my cart.
+
+
+Design Mockups
+
+
+
+Product page design mockup with Add to Cart button
+Cart page design mockup
+
+
+
+Checkout
+User Stories
+
+As a customer, I want to be able to easily complete my purchase and provide my payment information.
+As a customer, I want to be able to view my order summary and confirm my purchase.
+Test Cases
+
+Verify that users can click the "Checkout" button from their cart page.
+Verify that users can enter their shipping and billing information.
+Verify that users can choose a payment method and complete the transaction.
+Verify that users receive a confirmation of their payment upon successful processing.
+Design Mockups
+
+Checkout page design mockup
+
+
+
+Payment Gateway
+User Stories
+
+As a customer, I want to be able to choose from a variety of payment methods and securely enter my payment information.
+As a platform, we want to ensure the security of customer payment information and provide a seamless payment experience.
+
+Orders
+User Stories
+
+As a customer, I want to be able to view my order history and track the status of my orders.
+As a platform, we want to be able to manage and fulfill customer orders efficiently.
+

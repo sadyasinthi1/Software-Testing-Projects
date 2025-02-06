@@ -1,0 +1,161 @@
+Test Plan for OrangeHRM
+1. Objective
+The objective of this test plan is to ensure that the OrangeHRM system meets the required functional, non-functional, and performance standards. The goal is to verify the application’s usability, security, and performance under different conditions, and to ensure it adheres to the requirements specified for the HRM solution.
+
+2. Scope
+The scope of this test plan includes:
+
+Employee Management: Adding, editing, and deleting employee records.
+Leave Management: Functionality for employees and HR to apply, approve, and track leaves.
+Attendance Management: Clock-in, clock-out, and attendance history tracking.
+Payroll Management: Employee salary processing, deductions, and payslips generation.
+Performance Management: Appraisal process, performance reviews, and feedback mechanisms.
+Recruitment: Job posting, application submission, candidate screening, and recruitment reporting.
+Security & Compliance: Authentication, authorization, data encryption, and audit logging.
+Usability: Ensuring the application is intuitive, user-friendly, and performs as expected.
+Inclusions:
+
+Test case creation and execution
+Regression testing
+Performance testing
+Usability testing
+Security testing
+3. Inclusions
+Test Strategy document
+Test Cases document
+Test Execution Report
+Defect Report
+Performance Test Report
+Security Test Report
+UI/UX Test Report
+4. Test Environments
+The following test environments will be used for testing:
+
+Development Environment: For initial testing of code and features.
+Test Environment: For formal testing before production.
+Production Environment: For final testing with the live environment.
+Operating Systems:
+
+Windows 10
+macOS
+Linux (Ubuntu)
+Browsers:
+
+Google Chrome
+Mozilla Firefox
+Microsoft Edge
+Safari
+Devices:
+
+Desktop computers
+Laptops
+Tablets
+Smartphones (Android and iOS)
+Security Protocols:
+
+SSL for secure data transmission
+Role-based access control (RBAC)
+Password encryption and two-factor authentication (2FA)
+Access Permissions:
+
+Testers, developers, admins, and HR personnel will have appropriate access roles for testing.
+5. Defect Reporting Procedure
+Defect Identification: Any issue that deviates from the requirements or causes functional failure will be logged.
+Defect Reporting:
+Defects should be reported using JIRA (or a similar tool) with the following details:
+Defect ID
+Steps to reproduce
+Expected vs. actual results
+Severity and priority level
+Screenshots or logs
+Triaging and Prioritization:
+Defects will be classified by severity (Critical, High, Medium, Low) and priority (P1, P2, P3).
+Affected modules will be identified for quicker resolution.
+Defect Resolution: Developers will address defects based on priority and severity.
+Tracking: Defects will be tracked in JIRA for continuous monitoring.
+Metrics: Time taken to fix defects, number of defects fixed, and defect severity.
+6. Test Strategy
+Objectives: The overall goal of testing is to verify all critical functionalities of OrangeHRM including employee management, leave/attendance tracking, payroll processing, and security protocols.
+
+Test Levels:
+
+Unit Testing: Testing individual modules like leave management, payroll, and attendance.
+Integration Testing: Testing the interaction between different modules such as leave and payroll.
+System Testing: Full application testing in an environment similar to production.
+Acceptance Testing: Testing with actual users to ensure the HRM system meets business requirements.
+Test Types:
+
+Functional Testing: Testing all core features (leave, payroll, attendance, etc.)
+Non-Functional Testing: Includes performance, security, and usability testing.
+Regression Testing: Ensuring that recent changes do not affect existing functionality.
+Test Techniques:
+
+Black-box Testing: Focused on testing the functionality without knowledge of internal code.
+White-box Testing: Focused on internal logic and code, especially for security testing.
+Exploratory Testing: Ad-hoc testing to explore new functionalities or areas not covered by pre-defined test cases.
+Test Deliverables:
+
+Test Plan
+Test Cases and Scripts
+Test Reports
+Defect Reports
+Test Environment:
+
+Hardware: Servers, testing workstations, mobile devices
+Software: OrangeHRM, Testing Tools (Selenium, JIRA, etc.)
+Test Schedule:
+
+Task	Time Estimate	Date
+Test Plan Creation	2 days	Feb 6, 2025
+Test Case Creation	3 days	Feb 9, 2025
+Test Case Execution	5 days	Feb 14, 2025
+Defect Reporting & Triage	Ongoing	Feb 14 - 20, 2025
+Test Summary Report	2 days	Feb 21, 2025
+7. Entry and Exit Criteria
+Entry Criteria:
+
+All requirements and specifications are understood and available.
+Test cases are created and approved.
+Development builds are stable and smoke tests pass.
+Exit Criteria:
+
+All planned test cases are executed.
+Critical and high-priority defects are resolved.
+The product meets the required performance benchmarks.
+Test summary report is created, containing defect statistics and testing outcomes.
+8. Test Execution
+Test Execution Entry Criteria:
+
+Test scenarios and test cases are ready and approved by stakeholders.
+Application is stable and ready for testing.
+Test Execution Exit Criteria:
+
+All test cases are executed.
+Any critical defects are resolved.
+Test reports and defect logs are generated.
+9. Test Closure
+Test Closure Entry Criteria:
+
+All test case executions are complete.
+All defects have been addressed, and reports have been submitted.
+Test Closure Exit Criteria:
+
+Final test report and defect reports are delivered.
+Test metrics are documented.
+All necessary approvals are obtained from stakeholders.
+10. Tools
+JIRA for defect tracking and project management.
+Selenium for automated UI testing.
+JMeter for performance testing.
+Postman for API testing.
+Excel/Word for test case documentation.
+11. Risks and Mitigations
+Risk	Mitigation Strategy
+Resource unavailability	Backup resources will be allocated.
+Late delivery of development builds	Early smoke testing to identify critical issues.
+Tight testing timelines	Increase resource allocation for parallel testing.
+Limited access to production-like environments	Setup a staging environment that mirrors production.
+12. Approvals
+Test Plan Approval: Approved by Project Manager and QA Lead.
+Test Scenarios and Test Cases Approval: Approved by Business Analyst and Stakeholders.
+Test Execution Reports and Defect Reports Approval: Approved by QA Lead and Development Team.
